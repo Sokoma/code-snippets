@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Roboto Mono', monospace;
+}
+ body {
+   margin: 0;
+   padding: 0;
+   color: white;
+   background-color: #1b1e21;
+ }
+
+ .page-frame {
+   max-width: 1280px;
+   width: 100%;
+   margin: 0 auto;
+ }
+
+.news-item {
+  padding: 0 30px;
+  margin: 30px 0;
+  display: inline-block;
+  width: 33.33333333%;
+  vertical-align: top;
+}
+
+.common-section {
+  padding: 0 30px;
+}
+
+.news-item.default-color .news-image {
+  border-bottom: 5px solid springgreen;
+}    
+.news-item.aqua-color .news-image {
+  border-bottom: 5px solid aqua;
+}
+.news-item.lightCoral-color .news-image {
+  border-bottom: 5px solid lightcoral;
+}
+.news-item.red-color .news-image {
+  border-bottom: 5px solid red;
+}
+.news-item.purple-color .news-image {
+  border-bottom: 5px solid purple;
+}
+.news-item.blue-color .news-image {
+  border-bottom: 5px solid blue;
+}
+.news-item.yellow-color .news-image {
+  border-bottom: 5px solid yellow;
+}
+.news-item.blanchedAlmond-color .news-image {
+  border-bottom: 5px solid blanchedalmond;
+}
+.news-item.lightPink-color .news-image {
+  border-bottom: 5px solid lightpink;
+}
+.news-item.grey-color .news-image {
+  border-bottom: 5px solid grey;
+}
+.news-item.brown-color .news-image {
+  border-bottom: 5px solid brown;
+}
+
+.news-image {
+  height: 155px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.news-content {
+  background-color: white;
+  padding: 1px 25px;
+  color: black;
+}
+
+.topic-select {
+  width: 150px;
+    height: 30px;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+}
+
